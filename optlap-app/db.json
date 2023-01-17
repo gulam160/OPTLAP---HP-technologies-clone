@@ -1,0 +1,54 @@
+{
+  "laptops": [
+    {
+      "id": 1,
+      "model": "Inspiron",
+      "header": "Versatile Performance",
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/page-specific/dell-homepage/pt-br/other/in5320nt-cnb-05000ff090-gy-fpr-cat-compare.png?$S7-png$&wid=800&hei=550&qlt=100,0&resMode=sharp2",
+      "price": 33990,
+      "feature1": "Perform personal & home office tasks",
+      "feature2": "Stream, browse and multitask",
+      "feature3": "Video chat with enhanced audio & visuals"
+    },
+    {
+      "id": 2,
+      "model": "Vostro",
+      "header": "Small Business Productivity",
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/page-specific/category-pages/latam/dv7620nt-cnb-05000ff090-nonfpr-bk.png?$S7-png$&wid=800&hei=550&qlt=100,0&resMode=sharp2",
+      "price": 41989.99,
+      "feature1": "Protect data with essential security",
+      "feature2": "Power business applications",
+      "feature3": "Collaborate with video conferencing"
+    },
+    {
+      "id": 3,
+      "model": "XPS",
+      "header": "Creators and Creativity",
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/franchise/xps/prod-2011-tablet-xps-13-9315-blue-folio-800x550.png?fmt=png-alpha&wid=800&hei=550",
+      "price": 104989.97,
+      "feature1": "Multitask between intensive programs",
+      "feature2": "Produce video, photography and music",
+      "feature3": "Create & edit digital content"
+    },
+    {
+      "id": 4,
+      "model": "Alienware",
+      "header": "Immersive Gaming Experiences",
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/alienware-notebooks/general/prod-1769-notebook-alienware-x14-nt-800x550.png?fmt=png-alpha&wid=800&hei=550",
+      "price": 159989.99,
+      "feature1": "Power any game with exceptional cooling",
+      "feature2": "Experience smooth gaming with fast refresh rates",
+      "feature3": "Express yourself with AlienFX lighting"
+    },
+    {
+      "id": 5,
+      "model": "G Series",
+      "header": "Gaming Performance",
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/category/brand-compare/module/dell-gen-laptops-g-series-dg5511nt-800x550.png?fmt=png-alpha&wid=800&hei=550&scl=0.85&extend=0,0,0,30",
+      "price": 86989.98,
+      "feature1": "Boost your gaming experience",
+      "feature2": "Create videos & online content",
+      "feature3": "Connect with gaming community"
+    }
+  ]
+}
