@@ -2,6 +2,7 @@ import React from 'react'
 import "./componentstyles/Navbar.css"
 import Navlogo from "../Images/ProjectLogo1.png"
 import { FaRegUser, FaShoppingCart, FaHeadphonesAlt} from "react-icons/fa"
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ const Navbar = () => {
             <input type="text" placeholder='Search Optlap' />
             <div className='nav-links'>
                 <FaRegUser />
-                <p>Sign In</p>
+                <Link to="/signin">Sign In</Link>
             </div>
             <div className='nav-links'>
                 <FaHeadphonesAlt />
@@ -24,8 +25,8 @@ const Navbar = () => {
         </div>
         <div className='second-nav-div'>
             <ul>
-                <li>Apex</li>
-                <li>Products</li>
+                <Link to="/">Apex</Link>
+                <Link to="/products">Products</Link>
                 <li>Solutions</li>
                 <li>Services</li>
                 <li>Supports</li>
