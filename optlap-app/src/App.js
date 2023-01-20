@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './Components/navbar';
+import Allroutes from './Components/Allroutes';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <Navbar />
       </nav>
       <main className="App-main">
-        Main Body to be used for Routes
+        <Allroutes />
       </main>
       <footer className="App-footer"></footer>
     </div>
