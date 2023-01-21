@@ -111,7 +111,7 @@ const HomePage = () => {
             <Button
               colorScheme="#3182ce"
               size="md"
-              sx={{ width: "100px" }}
+              sx={{ width: "100px", background: "#3182ce" }}
               onClick={handleNavigate}
             >
               Shop Deals
