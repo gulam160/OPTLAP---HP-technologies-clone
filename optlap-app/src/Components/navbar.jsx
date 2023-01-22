@@ -5,10 +5,13 @@ import { FaRegUser, FaShoppingCart, FaHeadphonesAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const handleAlert = () => {
+    alert("Please, Authenticate Yourself");
+  };
   return (
     <div
       className="App-Navbar"
-      style={{ position: "fixed", width: "100%", zIndex: "100" }}
+      style={{ position: "sticky", top: 0, width: "100%", zIndex: "100" }}
     >
       <div className="first-nav-div">
         <img src={Navlogo} alt="website-logo" width="250" />
@@ -30,12 +33,24 @@ const Navbar = () => {
         <ul>
           <Link to="/">Apex</Link>
           <Link to="/products">Products</Link>
-          <li>Solutions</li>
-          <li>Services</li>
-          <li>Supports</li>
-          <li>Deals</li>
-          <li>Find a store</li>
-          <li>About Us</li>
+          <li onClick={handleAlert} style={{ cursor: "pointer" }}>
+            Solutions
+          </li>
+          <li onClick={handleAlert} style={{ cursor: "pointer" }}>
+            Services
+          </li>
+          <li onClick={handleAlert} style={{ cursor: "pointer" }}>
+            Supports
+          </li>
+          <li onClick={handleAlert} style={{ cursor: "pointer" }}>
+            Deals
+          </li>
+          <li onClick={handleAlert} style={{ cursor: "pointer" }}>
+            Find a store
+          </li>
+          <li onClick={handleAlert} style={{ cursor: "pointer" }}>
+            About Us
+          </li>
         </ul>
       </div>
     </div>
