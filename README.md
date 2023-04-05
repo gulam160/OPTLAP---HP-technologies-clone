@@ -35,7 +35,7 @@ _Deployed Link : https://spontaneous-smakager-d36447.netlify.app/_
 
 ![Alt text](ScreenShots/Screenshot%202023-04-05%20144155.png)
 
-### What We Learned From this project?
+### What I Learned From this project?
 
 - Implementation of React router DOM Routing library
 - API integration for signin to Authorise product.
@@ -43,3 +43,5 @@ _Deployed Link : https://spontaneous-smakager-d36447.netlify.app/_
 - Able to fetch data from API to display product on UI.
 - Use of Chakra UI, a famous CSS library building building beautiful Intefaces.
 - etc.
+
+### Thankyou
